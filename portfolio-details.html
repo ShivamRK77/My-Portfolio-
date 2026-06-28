@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - CareerMatch.ai</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+  /* Center navbar and remove list bullets */
+  #header .container { position: relative; }
+  #navbar { position: relative; margin: 0 auto; text-align: center; }
+  #navbar ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 1.2rem; justify-content:center; align-items:center; }
+  #navbar ul li { display: inline-block; }
+  .logo { position: absolute; left: 20px; top: 50%; transform: translateY(-50%); }
+  @media (max-width: 991px) { #navbar ul { flex-direction: column; } .logo{ position: static; transform:none; } }
+  </style>
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">SG.</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#resume">Resume</a></li>
+          <li><a class="nav-link scrollto" href="index.html#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Project Details</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Portfolio Details</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+        <div class="row gy-4">
+          
+          <div class="col-lg-8">
+            <!-- Add a screenshot of your project here -->
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <img src="assets/img/services/services-1.webp" alt="CareerMatch.ai Screenshot">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/services/services-3.webp" alt="CareerMatch.ai Dashboard screenshot">
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-10.webp" alt="CareerMatch.ai Data pipeline diagram">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project Information</h3>
+              <ul>
+                <li><strong>Project Name</strong>: CareerMatch.ai</li>
+                <li><strong>Technologies</strong>: React.js, Node.js</li>
+                <li><strong>Project Date</strong>: Oct 2025 - April 2026</li>
+                <li><strong>Project URL</strong>: <a href="https://career-match-ai-sand.vercel.app" target="_blank">career-match-ai-sand.vercel.app</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description mt-4">
+              <h2>Project Overview</h2>
+              <ul>
+                <li>Developed a responsive React.js dashboard integrating the Gemini API for complex semantic matching, accelerating AI-powered resume gap analysis by 60%.</li>
+                <li>Architected a high-availability full-stack infrastructure utilizing a Node.js/Express.js backend and an optimized MongoDB schema to securely process heavy document workloads with minimal latency.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Shivam Gupta</span> — All Rights Reserved</p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://linkedin.com/in/shivam-gupta-2a403b228" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/ShivamRK77" target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
